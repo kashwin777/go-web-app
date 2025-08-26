@@ -3,7 +3,7 @@
 # and run the container
 
 # Start with a base image
-FROM golang:1.24.5 As builder
+FROM golang:1.24-alpine As builder
 
 # Set the working directory inside the container
 WORKDIR /app
